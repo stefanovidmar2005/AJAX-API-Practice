@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>API Practice AJAX</title>
+    <script src="main.js" defer></script>
+    <style>
+      body {
+        padding: 2rem;
+      }
+      .countryFlag {
+        object-fit: contain;
+      }
+      .flex {
+        display: flex;
+        align-items: center;
+        gap: 1rem;
+      }
+
+      .wrapper {
+        margin: 0 auto;
+      }
+      .countries {
+        display: flex;
+        gap: 1rem;
+        flex-wrap: wrap;
+      }
+      .country {
+        border: 2px solid #333;
+        padding: 10px 25px;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Country Application 🚩</h1>
+    <input
+      style="margin-bottom: 20px"
+      placeholder="Country"
+      id="country"
+      type="text"
+      name="country"
+      id="country"
+    />
+    <button>Submit</button>
+    <div class="wrapper">
+      <div class="countries"></div>
+    </div>
+  </body>
+</html>
